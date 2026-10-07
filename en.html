@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROOF Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7; color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #16171a; } a { color: #7db3ff; } }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 2.2em; border-bottom: 1px solid rgba(128,128,128,.3); padding-bottom: .25em; }
+  h3 { font-size: 1rem; margin-top: 1.4em; }
+  .meta { color: #888; font-size: .9rem; margin-bottom: 2em; }
+  .lang { float: right; font-size: .85rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: 8px 10px; text-align: left; vertical-align: top; }
+  code { background: rgba(128,128,128,.15); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  .note { background: rgba(255,196,0,.12); border-left: 3px solid #f0b400; padding: 10px 14px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<a class="lang" href="index.html">日本語</a>
+<h1>PROOF Privacy Policy</h1>
+<p class="meta">Last updated: 10 September 2026 &nbsp;/&nbsp; Effective: 10 September 2026</p>
+
+<p>
+This Privacy Policy (the "Policy") describes how <strong>Oh.A</strong> ("we", "us")
+handles information in the Android application "PROOF" (the "App"). By installing or using the App,
+you agree to this Policy.
+</p>
+
+<div class="note">
+<strong>Summary:</strong> The App requires no account. Data you create — study records, savings entries,
+notes, and vocabulary — is stored only on your device and is not sent to our servers. The App only
+communicates with the outside world to display ads (Google AdMob) and to process purchases of paid
+features (Google Play Billing).
+</div>
+
+<h2>1. Information we handle</h2>
+
+<h3>1.1 Information stored only on your device (we do not receive it)</h3>
+<p>
+The following is stored in a local database on your device and is never transmitted to us or to any
+third party. You can delete it from within the App, and uninstalling the App removes all of it.
+</p>
+<ul>
+  <li>Study/work session records (start and end time, goal time, actual time, subject, completion status, integrity-check results, etc.)</li>
+  <li>Subjects and schedule settings you create</li>
+  <li>Amounts, goals, and notes entered in the savings feature</li>
+  <li>Handwriting, text, and photos you add in the notes feature</li>
+  <li>Words and definitions saved in the vocabulary notebook</li>
+  <li>Progress in the collection ("zukan") feature</li>
+  <li>App settings (display language, allow-list of apps, etc.)</li>
+</ul>
+
+<h3>1.2 Information accessed through device permissions</h3>
+<table>
+  <tr><th>Permission</th><th>Purpose</th><th>Handling</th></tr>
+  <tr>
+    <td>Usage access<br>(<code>PACKAGE_USAGE_STATS</code>)</td>
+    <td>To detect whether you opened an app outside the allow-list during a lock session and show the block screen</td>
+    <td>The package name of the foreground app is read on the device, only during a lock session. It is not logged, stored, or transmitted.</td>
+  </tr>
+  <tr>
+    <td>Display over other apps<br>(<code>SYSTEM_ALERT_WINDOW</code>)</td>
+    <td>To show the block screen on top of other apps</td>
+    <td>No information is collected.</td>
+  </tr>
+  <tr>
+    <td>Post notifications<br>(<code>POST_NOTIFICATIONS</code>)</td>
+    <td>To show the ongoing lock-monitor notification and the weekly summary notification</td>
+    <td>No information is collected.</td>
+  </tr>
+  <tr>
+    <td>Run at device start<br>(<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+    <td>To re-arm scheduled lock sessions after a reboot</td>
+    <td>No information is collected.</td>
+  </tr>
+  <tr>
+    <td>Internet / network state<br>(<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>)</td>
+    <td>To fetch ads and communicate with Google Play Billing</td>
+    <td>Ads are not loaded during a lock session.</td>
+  </tr>
+</table>
+
+<h3>1.3 Information collected by third parties for advertising</h3>
+<p>
+The free version of the App uses <strong>Google AdMob</strong> (a mobile advertising service provided
+by Google LLC) to display ads. For ad delivery, measurement, and fraud prevention, AdMob and Google's
+advertising systems may collect and process information such as:
+</p>
+<ul>
+  <li>Advertising ID and other device identifiers</li>
+  <li>IP address and the approximate location derived from it</li>
+  <li>Device information such as device model, OS version, and language</li>
+  <li>Ad interaction data such as impressions and clicks</li>
+</ul>
+<p>This information is handled in accordance with Google's privacy policy and terms. For details, see:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a></li>
+</ul>
+<p>
+Purchasing the paid (Premium) version removes ads, and the app then stops loading ads and showing the ad-consent form (once the purchase status has been confirmed). The advertising SDK may still perform a minimal start-up initialisation when the app launches.
+</p>
+
+<h3>1.4 Information related to purchases</h3>
+<p>
+Premium features are purchased through <strong>Google Play Billing</strong>. Payment is processed by
+Google; we do not receive payment details such as card numbers. From Google Play we receive only
+information such as a purchase token used to verify whether a purchase was made.
+</p>
+
+<h3>1.5 Handwriting recognition model download</h3>
+<p>
+The notes feature "convert handwriting to text" uses Google's <strong>ML Kit (Digital Ink Recognition)</strong>.
+The first time you use it, a recognition model is downloaded to your device from Google's servers (this
+network request exposes connection information such as your IP address to Google). Recognition of your
+handwriting itself runs on your device; the content of what you write is not sent to us or to Google.
+</p>
+
+<h2>2. How we use information</h2>
+<ul>
+  <li>To provide the App's features (study lock, record visualisation, savings, notes, vocabulary, etc.)</li>
+  <li>To display ads in the free version and sustain the App's operation</li>
+  <li>To verify Premium purchase status and provide benefits such as ad removal</li>
+  <li>To investigate bugs and improve the App</li>
+</ul>
+
+<h2>3. Sharing and processors</h2>
+<p>We do not sell your information and do not share it with third parties except as required by law. The following provider processes information for the purposes above:</p>
+<ul>
+  <li><strong>Google LLC</strong>: ad delivery (Google AdMob), in-app purchases (Google Play Billing)</li>
+</ul>
+
+<h2>4. Ad personalisation and consent</h2>
+<p>
+For users in the European Economic Area (EEA), the United Kingdom, and Switzerland, the App presents a
+consent form using Google's User Messaging Platform (UMP) — for example on first launch — asking for
+your choice regarding personalised ads. You can change this choice at any time (the
+consent form can be re-opened from "Ad privacy settings" in the App's settings). Users elsewhere can opt out of ad personalisation or
+reset/delete their advertising ID from their device settings.
+</p>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+  <li>Data stored on your device (section 1.1) remains on the device until you delete it or uninstall the App. We do not hold this data.</li>
+  <li>Retention of advertising identifiers and related information follows Google's policies.</li>
+  <li>You can reset or delete your advertising ID from Android <em>Settings &gt; Privacy &gt; Ads</em>.</li>
+</ul>
+
+<h2>6. Children's privacy</h2>
+<p>
+The App is not directed to children under 13, and we do not knowingly collect personal information from
+children under 13.
+</p>
+
+<h2>7. Your rights</h2>
+<p>
+Because the App does not hold your on-device data on our servers, you can access, correct, and delete
+that data yourself within the App. For rights regarding information processed by the advertising
+provider (Google), please refer to Google's privacy policy above.
+</p>
+<ul>
+  <li><strong>EEA / UK users (GDPR):</strong> you have rights of access, rectification, erasure, restriction, objection, and data portability. The legal basis for personalised advertising is consent.</li>
+  <li><strong>California users (CCPA / CPRA):</strong> you have the right to know what personal information is collected, to request its deletion, and to opt out of the "sale" or "sharing" of personal information. We do not sell personal information.</li>
+</ul>
+
+<h2>8. International transfers</h2>
+<p>
+In connection with advertising and purchase processing, information may be transferred to and processed
+on Google servers located outside your country, including in the United States.
+</p>
+
+<h2>9. Changes to this Policy</h2>
+<p>
+We may revise this Policy to reflect changes in law or in the App. For significant changes we will give
+notice in the App or on this page. The revised Policy takes effect when posted on this page.
+</p>
+
+<h2>10. Contact</h2>
+<p>
+For questions about this Policy or about how the App handles information, contact:<br>
+<strong>musica7miyu@gmail.com</strong>
+</p>
+
+</body>
+</html>
